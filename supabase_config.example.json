@@ -1,0 +1,5 @@
+{
+  "_commentaire": "Copier ce fichier en supabase_config.json (non versionné) et remplir les deux valeurs. Project Settings > API. N'utiliser QUE la clé publique (anon / publishable) : la clé service_role contourne RLS et n'a rien à faire dans un client.",
+  "url": "https://VOTRE-REF-PROJET.supabase.co",
+  "anon_key": "COLLER-ICI-LA-CLE-ANON-PUBLIQUE"
+}

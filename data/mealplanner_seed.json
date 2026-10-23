@@ -1,0 +1,1737 @@
+{
+ "schema_version": 2,
+ "source": "jeu d'exemple neutre — remplacé par les données du compte à la première synchronisation",
+ "recipes": [
+  {
+   "id": 1,
+   "name": "Pâtes aux légumes d'été",
+   "season": "ete",
+   "nobox": false,
+   "steps": "Faire revenir l'oignon et l'ail.\nAjouter courgette, poivron et tomate, compoter 15 min.\nMélanger aux pâtes, parsemer de feta.",
+   "categories": [
+    "Pâtes"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 1,
+     "name": "pâtes",
+     "aisle": "Divers",
+     "quantity": 300.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 34,
+     "name": "courgette",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 36,
+     "name": "poivron",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 37,
+     "name": "tomate",
+     "aisle": "Fruits et Légumes",
+     "quantity": 3.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 31,
+     "name": "oignon",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 32,
+     "name": "ail",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 22,
+     "name": "feta",
+     "aisle": "Frais",
+     "quantity": 100.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 8,
+     "name": "huile d'olive",
+     "aisle": "Divers",
+     "quantity": 2.0,
+     "unit": "cas"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Gratin de pommes de terre",
+   "season": "hiver",
+   "nobox": false,
+   "steps": "Émincer les pommes de terre en fines rondelles.\nAlterner les couches avec la crème et le fromage.\nEnfourner 45 min à 180 °C.",
+   "categories": [
+    "Tubercules"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 38,
+     "name": "pomme de terre",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": "kg"
+    },
+    {
+     "ingredient_id": 20,
+     "name": "crème fraîche",
+     "aisle": "Frais",
+     "quantity": 20.0,
+     "unit": "cl"
+    },
+    {
+     "ingredient_id": 21,
+     "name": "fromage râpé",
+     "aisle": "Frais",
+     "quantity": 150.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 32,
+     "name": "ail",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Dahl de lentilles corail",
+   "season": "toute",
+   "nobox": false,
+   "steps": "Faire revenir oignon, ail et gingembre.\nAjouter lentilles, lait de coco et curry.\nMijoter 25 min à couvert.",
+   "categories": [
+    "Légumineuses"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 3,
+     "name": "lentilles corail",
+     "aisle": "Divers",
+     "quantity": 250.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 9,
+     "name": "lait de coco",
+     "aisle": "Divers",
+     "quantity": 40.0,
+     "unit": "cl"
+    },
+    {
+     "ingredient_id": 31,
+     "name": "oignon",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 32,
+     "name": "ail",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 53,
+     "name": "gingembre",
+     "aisle": "Asiatique",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 12,
+     "name": "curry",
+     "aisle": "Divers",
+     "quantity": 1.0,
+     "unit": "cas"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Riz sauté aux légumes",
+   "season": "toute",
+   "nobox": false,
+   "steps": "Cuire le riz et le laisser refroidir.\nSauter les légumes à feu vif.\nAjouter riz et sauce soja, mélanger 3 min.",
+   "categories": [
+    "Riz"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 2,
+     "name": "riz",
+     "aisle": "Divers",
+     "quantity": 300.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 33,
+     "name": "carotte",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 55,
+     "name": "petits pois",
+     "aisle": "Picard",
+     "quantity": 200.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 19,
+     "name": "oeufs",
+     "aisle": "Frais",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 51,
+     "name": "sauce soja",
+     "aisle": "Asiatique",
+     "quantity": 3.0,
+     "unit": "cas"
+    },
+    {
+     "ingredient_id": 31,
+     "name": "oignon",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Omelette aux champignons",
+   "season": "toute",
+   "nobox": true,
+   "steps": "Faire suer les champignons avec l'ail et le persil.\nBattre les oeufs et verser dans la poêle.\nPlier l'omelette et servir.",
+   "categories": [
+    "Oeufs"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 19,
+     "name": "oeufs",
+     "aisle": "Frais",
+     "quantity": 6.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 44,
+     "name": "champignons",
+     "aisle": "Fruits et Légumes",
+     "quantity": 250.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 32,
+     "name": "ail",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 47,
+     "name": "persil",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 21,
+     "name": "fromage râpé",
+     "aisle": "Frais",
+     "quantity": 50.0,
+     "unit": "g"
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Salade de pois chiches",
+   "season": "ete",
+   "nobox": true,
+   "steps": "Rincer les pois chiches.\nMélanger avec concombre, tomate et feta.\nAssaisonner au citron et à l'huile d'olive.",
+   "categories": [
+    "Salade",
+    "Légumineuses"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 4,
+     "name": "pois chiches",
+     "aisle": "Divers",
+     "quantity": 400.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 43,
+     "name": "concombre",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 37,
+     "name": "tomate",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 22,
+     "name": "feta",
+     "aisle": "Frais",
+     "quantity": 100.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 46,
+     "name": "citron",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 8,
+     "name": "huile d'olive",
+     "aisle": "Divers",
+     "quantity": 3.0,
+     "unit": "cas"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Tartines à l'avocat",
+   "season": "toute",
+   "nobox": true,
+   "steps": "Griller le pain.\nÉcraser l'avocat avec le citron.\nGarnir et poser un oeuf poché par tartine.",
+   "categories": [
+    "Pain"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 26,
+     "name": "pain de campagne",
+     "aisle": "Frais",
+     "quantity": 4.0,
+     "unit": "tranches"
+    },
+    {
+     "ingredient_id": 48,
+     "name": "avocat",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 19,
+     "name": "oeufs",
+     "aisle": "Frais",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 46,
+     "name": "citron",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 42,
+     "name": "salade verte",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Soupe de butternut",
+   "season": "hiver",
+   "nobox": false,
+   "steps": "Éplucher et couper la courge en cubes.\nCuire 25 min dans le bouillon avec l'oignon.\nMixer et ajouter la crème.",
+   "categories": [
+    "Légumes"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 40,
+     "name": "courge butternut",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 11,
+     "name": "bouillon de légumes",
+     "aisle": "Divers",
+     "quantity": 1.0,
+     "unit": "l"
+    },
+    {
+     "ingredient_id": 31,
+     "name": "oignon",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 20,
+     "name": "crème fraîche",
+     "aisle": "Frais",
+     "quantity": 10.0,
+     "unit": "cl"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Chili sin carne",
+   "season": "hiver",
+   "nobox": false,
+   "steps": "Faire revenir oignon, ail et poivron.\nAjouter haricots, tomates pelées et épices.\nMijoter 30 min.",
+   "categories": [
+    "Légumineuses"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 5,
+     "name": "haricots rouges",
+     "aisle": "Divers",
+     "quantity": 400.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 10,
+     "name": "tomates pelées",
+     "aisle": "Divers",
+     "quantity": 400.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 36,
+     "name": "poivron",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 31,
+     "name": "oignon",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 32,
+     "name": "ail",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 13,
+     "name": "cumin",
+     "aisle": "Divers",
+     "quantity": 1.0,
+     "unit": "cac"
+    },
+    {
+     "ingredient_id": 14,
+     "name": "paprika",
+     "aisle": "Divers",
+     "quantity": 1.0,
+     "unit": "cac"
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Fajitas aux légumes",
+   "season": "toute",
+   "nobox": true,
+   "steps": "Émincer poivron, oignon et courgette.\nSauter à feu vif avec le paprika.\nGarnir les tortillas et rouler.",
+   "categories": [
+    "Pain"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 27,
+     "name": "tortillas",
+     "aisle": "Frais",
+     "quantity": 6.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 36,
+     "name": "poivron",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 31,
+     "name": "oignon",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 34,
+     "name": "courgette",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 14,
+     "name": "paprika",
+     "aisle": "Divers",
+     "quantity": 1.0,
+     "unit": "cac"
+    },
+    {
+     "ingredient_id": 21,
+     "name": "fromage râpé",
+     "aisle": "Frais",
+     "quantity": 100.0,
+     "unit": "g"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Risotto aux champignons",
+   "season": "toute",
+   "nobox": false,
+   "steps": "Faire nacrer le riz avec l'oignon.\nMouiller au bouillon louche par louche.\nAjouter champignons et fromage en fin de cuisson.",
+   "categories": [
+    "Riz"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 2,
+     "name": "riz",
+     "aisle": "Divers",
+     "quantity": 300.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 44,
+     "name": "champignons",
+     "aisle": "Fruits et Légumes",
+     "quantity": 300.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 11,
+     "name": "bouillon de légumes",
+     "aisle": "Divers",
+     "quantity": 1.0,
+     "unit": "l"
+    },
+    {
+     "ingredient_id": 31,
+     "name": "oignon",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 21,
+     "name": "fromage râpé",
+     "aisle": "Frais",
+     "quantity": 80.0,
+     "unit": "g"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Curry de légumes",
+   "season": "toute",
+   "nobox": false,
+   "steps": "Faire revenir les épices dans l'huile.\nAjouter les légumes en cubes et le lait de coco.\nMijoter 25 min, servir avec du riz.",
+   "categories": [
+    "Légumes"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 39,
+     "name": "patate douce",
+     "aisle": "Fruits et Légumes",
+     "quantity": 500.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 45,
+     "name": "brocoli",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 9,
+     "name": "lait de coco",
+     "aisle": "Divers",
+     "quantity": 40.0,
+     "unit": "cl"
+    },
+    {
+     "ingredient_id": 12,
+     "name": "curry",
+     "aisle": "Divers",
+     "quantity": 1.0,
+     "unit": "cas"
+    },
+    {
+     "ingredient_id": 53,
+     "name": "gingembre",
+     "aisle": "Asiatique",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 2,
+     "name": "riz",
+     "aisle": "Divers",
+     "quantity": 250.0,
+     "unit": "g"
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Pâtes aux épinards",
+   "season": "toute",
+   "nobox": false,
+   "steps": "Faire fondre les épinards avec l'ail.\nAjouter la crème et laisser réduire.\nMélanger aux pâtes, parsemer de fromage.",
+   "categories": [
+    "Pâtes"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 1,
+     "name": "pâtes",
+     "aisle": "Divers",
+     "quantity": 300.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 56,
+     "name": "épinards surgelés",
+     "aisle": "Picard",
+     "quantity": 400.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 20,
+     "name": "crème fraîche",
+     "aisle": "Frais",
+     "quantity": 20.0,
+     "unit": "cl"
+    },
+    {
+     "ingredient_id": 32,
+     "name": "ail",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 21,
+     "name": "fromage râpé",
+     "aisle": "Frais",
+     "quantity": 60.0,
+     "unit": "g"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Salade de semoule",
+   "season": "ete",
+   "nobox": true,
+   "steps": "Hydrater la semoule dans l'eau bouillante.\nAjouter les crudités en dés.\nAssaisonner au citron, à l'huile et au persil.",
+   "categories": [
+    "Salade"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 6,
+     "name": "semoule",
+     "aisle": "Divers",
+     "quantity": 250.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 43,
+     "name": "concombre",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 37,
+     "name": "tomate",
+     "aisle": "Fruits et Légumes",
+     "quantity": 3.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 46,
+     "name": "citron",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 47,
+     "name": "persil",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 8,
+     "name": "huile d'olive",
+     "aisle": "Divers",
+     "quantity": 3.0,
+     "unit": "cas"
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Frittata aux légumes",
+   "season": "toute",
+   "nobox": false,
+   "steps": "Précuire les légumes à la poêle.\nVerser les oeufs battus par-dessus.\nTerminer 10 min au four.",
+   "categories": [
+    "Oeufs"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 19,
+     "name": "oeufs",
+     "aisle": "Frais",
+     "quantity": 8.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 38,
+     "name": "pomme de terre",
+     "aisle": "Fruits et Légumes",
+     "quantity": 300.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 34,
+     "name": "courgette",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 31,
+     "name": "oignon",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 23,
+     "name": "mozzarella",
+     "aisle": "Frais",
+     "quantity": 125.0,
+     "unit": "g"
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Nouilles sautées au tofu",
+   "season": "toute",
+   "nobox": true,
+   "steps": "Faire dorer le tofu en cubes.\nSauter carotte et brocoli à feu vif.\nAjouter nouilles et sauce soja.",
+   "categories": [
+    "Pâtes"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 52,
+     "name": "nouilles de riz",
+     "aisle": "Asiatique",
+     "quantity": 250.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 25,
+     "name": "tofu",
+     "aisle": "Frais",
+     "quantity": 200.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 33,
+     "name": "carotte",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 45,
+     "name": "brocoli",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 51,
+     "name": "sauce soja",
+     "aisle": "Asiatique",
+     "quantity": 3.0,
+     "unit": "cas"
+    },
+    {
+     "ingredient_id": 54,
+     "name": "graines de sésame",
+     "aisle": "Asiatique",
+     "quantity": 1.0,
+     "unit": "cas"
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Soupe de lentilles",
+   "season": "hiver",
+   "nobox": false,
+   "steps": "Faire revenir oignon, carotte et poireau.\nAjouter les lentilles et le bouillon.\nCuire 35 min et mixer grossièrement.",
+   "categories": [
+    "Légumineuses"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 15,
+     "name": "lentilles vertes",
+     "aisle": "Divers",
+     "quantity": 250.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 33,
+     "name": "carotte",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 49,
+     "name": "poireau",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 31,
+     "name": "oignon",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 11,
+     "name": "bouillon de légumes",
+     "aisle": "Divers",
+     "quantity": 1.0,
+     "unit": "l"
+    },
+    {
+     "ingredient_id": 13,
+     "name": "cumin",
+     "aisle": "Divers",
+     "quantity": 1.0,
+     "unit": "cac"
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Quiche aux poireaux",
+   "season": "toute",
+   "nobox": false,
+   "steps": "Faire fondre les poireaux au beurre 20 min.\nBattre oeufs et crème, saler.\nVerser sur la pâte et cuire 35 min à 180 °C.",
+   "categories": [
+    "Oeufs"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 17,
+     "name": "pâte brisée",
+     "aisle": "Divers",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 49,
+     "name": "poireau",
+     "aisle": "Fruits et Légumes",
+     "quantity": 3.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 19,
+     "name": "oeufs",
+     "aisle": "Frais",
+     "quantity": 4.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 20,
+     "name": "crème fraîche",
+     "aisle": "Frais",
+     "quantity": 20.0,
+     "unit": "cl"
+    },
+    {
+     "ingredient_id": 21,
+     "name": "fromage râpé",
+     "aisle": "Frais",
+     "quantity": 80.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 30,
+     "name": "beurre",
+     "aisle": "Frais",
+     "quantity": 20.0,
+     "unit": "g"
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Buddha bowl",
+   "season": "toute",
+   "nobox": true,
+   "steps": "Cuire le riz.\nRôtir la patate douce et le brocoli au four 25 min.\nDresser en bol avec l'avocat et une sauce au yaourt.",
+   "categories": [
+    "Riz"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 2,
+     "name": "riz",
+     "aisle": "Divers",
+     "quantity": 250.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 39,
+     "name": "patate douce",
+     "aisle": "Fruits et Légumes",
+     "quantity": 400.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 45,
+     "name": "brocoli",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 48,
+     "name": "avocat",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 24,
+     "name": "yaourt nature",
+     "aisle": "Frais",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 54,
+     "name": "graines de sésame",
+     "aisle": "Asiatique",
+     "quantity": 1.0,
+     "unit": "cas"
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Croque-monsieur végétarien",
+   "season": "toute",
+   "nobox": true,
+   "steps": "Étaler un peu de crème sur le pain.\nGarnir d'épinards et de fromage.\nDorer à la poêle ou au four 10 min.",
+   "categories": [
+    "Pain"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 28,
+     "name": "pain de mie",
+     "aisle": "Frais",
+     "quantity": 8.0,
+     "unit": "tranches"
+    },
+    {
+     "ingredient_id": 21,
+     "name": "fromage râpé",
+     "aisle": "Frais",
+     "quantity": 150.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 41,
+     "name": "épinards",
+     "aisle": "Fruits et Légumes",
+     "quantity": 200.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 20,
+     "name": "crème fraîche",
+     "aisle": "Frais",
+     "quantity": 5.0,
+     "unit": "cl"
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "Purée de patate douce gratinée",
+   "season": "hiver",
+   "nobox": false,
+   "steps": "Cuire les patates douces à l'eau 20 min.\nÉcraser avec le beurre et la crème.\nGratiner 15 min au four.",
+   "categories": [
+    "Tubercules"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 39,
+     "name": "patate douce",
+     "aisle": "Fruits et Légumes",
+     "quantity": 800.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 30,
+     "name": "beurre",
+     "aisle": "Frais",
+     "quantity": 30.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 20,
+     "name": "crème fraîche",
+     "aisle": "Frais",
+     "quantity": 10.0,
+     "unit": "cl"
+    },
+    {
+     "ingredient_id": 21,
+     "name": "fromage râpé",
+     "aisle": "Frais",
+     "quantity": 80.0,
+     "unit": "g"
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "Salade de riz",
+   "season": "ete",
+   "nobox": true,
+   "steps": "Cuire le riz et le rafraîchir.\nAjouter tomate, poivron et petits pois.\nAssaisonner à l'huile et au citron.",
+   "categories": [
+    "Salade",
+    "Riz"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 2,
+     "name": "riz",
+     "aisle": "Divers",
+     "quantity": 250.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 37,
+     "name": "tomate",
+     "aisle": "Fruits et Légumes",
+     "quantity": 3.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 36,
+     "name": "poivron",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 55,
+     "name": "petits pois",
+     "aisle": "Picard",
+     "quantity": 150.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 46,
+     "name": "citron",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 8,
+     "name": "huile d'olive",
+     "aisle": "Divers",
+     "quantity": 3.0,
+     "unit": "cas"
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "Lasagnes aux légumes",
+   "season": "toute",
+   "nobox": false,
+   "steps": "Faire compoter aubergine, courgette et tomates pelées.\nAlterner plaques, légumes et fromage.\nCuire 40 min à 180 °C.",
+   "categories": [
+    "Pâtes"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 18,
+     "name": "plaques à lasagnes",
+     "aisle": "Divers",
+     "quantity": 250.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 35,
+     "name": "aubergine",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 34,
+     "name": "courgette",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 10,
+     "name": "tomates pelées",
+     "aisle": "Divers",
+     "quantity": 400.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 23,
+     "name": "mozzarella",
+     "aisle": "Frais",
+     "quantity": 125.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 21,
+     "name": "fromage râpé",
+     "aisle": "Frais",
+     "quantity": 100.0,
+     "unit": "g"
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "Poêlée de pommes de terre",
+   "season": "toute",
+   "nobox": false,
+   "steps": "Cuire les pommes de terre en cubes 15 min.\nAjouter champignons et oignon, dorer 10 min.\nParsemer de persil.",
+   "categories": [
+    "Tubercules"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 38,
+     "name": "pomme de terre",
+     "aisle": "Fruits et Légumes",
+     "quantity": 800.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 44,
+     "name": "champignons",
+     "aisle": "Fruits et Légumes",
+     "quantity": 250.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 31,
+     "name": "oignon",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 32,
+     "name": "ail",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 47,
+     "name": "persil",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 8,
+     "name": "huile d'olive",
+     "aisle": "Divers",
+     "quantity": 2.0,
+     "unit": "cas"
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "Taboulé",
+   "season": "ete",
+   "nobox": true,
+   "steps": "Hydrater le boulgour.\nAjouter tomate, concombre, menthe et persil hachés.\nAssaisonner généreusement au citron.",
+   "categories": [
+    "Salade"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 16,
+     "name": "boulgour",
+     "aisle": "Divers",
+     "quantity": 250.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 37,
+     "name": "tomate",
+     "aisle": "Fruits et Légumes",
+     "quantity": 3.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 43,
+     "name": "concombre",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 50,
+     "name": "menthe",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 47,
+     "name": "persil",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 46,
+     "name": "citron",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 8,
+     "name": "huile d'olive",
+     "aisle": "Divers",
+     "quantity": 3.0,
+     "unit": "cas"
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Gnocchis à la tomate",
+   "season": "toute",
+   "nobox": false,
+   "steps": "Faire mijoter les tomates pelées avec l'ail 15 min.\nPoêler les gnocchis 5 min.\nMélanger et ajouter la mozzarella.",
+   "categories": [
+    "Pâtes"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 29,
+     "name": "gnocchis",
+     "aisle": "Frais",
+     "quantity": 500.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 10,
+     "name": "tomates pelées",
+     "aisle": "Divers",
+     "quantity": 400.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 32,
+     "name": "ail",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 23,
+     "name": "mozzarella",
+     "aisle": "Frais",
+     "quantity": 125.0,
+     "unit": "g"
+    },
+    {
+     "ingredient_id": 8,
+     "name": "huile d'olive",
+     "aisle": "Divers",
+     "quantity": 2.0,
+     "unit": "cas"
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Ratatouille",
+   "season": "ete",
+   "nobox": false,
+   "steps": "Couper tous les légumes en cubes.\nLes cuire séparément puis réunir.\nMijoter 30 min à feu doux.",
+   "categories": [
+    "Légumes"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 35,
+     "name": "aubergine",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 34,
+     "name": "courgette",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 36,
+     "name": "poivron",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 37,
+     "name": "tomate",
+     "aisle": "Fruits et Légumes",
+     "quantity": 4.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 31,
+     "name": "oignon",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 32,
+     "name": "ail",
+     "aisle": "Fruits et Légumes",
+     "quantity": 3.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 8,
+     "name": "huile d'olive",
+     "aisle": "Divers",
+     "quantity": 4.0,
+     "unit": "cas"
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Velouté de brocoli",
+   "season": "hiver",
+   "nobox": true,
+   "steps": "Cuire le brocoli et la pomme de terre 20 min dans le bouillon.\nMixer finement.\nAjouter la crème hors du feu.",
+   "categories": [
+    "Légumes"
+   ],
+   "ingredients": [
+    {
+     "ingredient_id": 45,
+     "name": "brocoli",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 38,
+     "name": "pomme de terre",
+     "aisle": "Fruits et Légumes",
+     "quantity": 2.0,
+     "unit": ""
+    },
+    {
+     "ingredient_id": 11,
+     "name": "bouillon de légumes",
+     "aisle": "Divers",
+     "quantity": 1.0,
+     "unit": "l"
+    },
+    {
+     "ingredient_id": 20,
+     "name": "crème fraîche",
+     "aisle": "Frais",
+     "quantity": 10.0,
+     "unit": "cl"
+    },
+    {
+     "ingredient_id": 31,
+     "name": "oignon",
+     "aisle": "Fruits et Légumes",
+     "quantity": 1.0,
+     "unit": ""
+    }
+   ]
+  }
+ ],
+ "ingredients": [
+  {
+   "id": 1,
+   "name": "pâtes",
+   "aisle": "Divers"
+  },
+  {
+   "id": 2,
+   "name": "riz",
+   "aisle": "Divers"
+  },
+  {
+   "id": 3,
+   "name": "lentilles corail",
+   "aisle": "Divers"
+  },
+  {
+   "id": 4,
+   "name": "pois chiches",
+   "aisle": "Divers"
+  },
+  {
+   "id": 5,
+   "name": "haricots rouges",
+   "aisle": "Divers"
+  },
+  {
+   "id": 6,
+   "name": "semoule",
+   "aisle": "Divers"
+  },
+  {
+   "id": 8,
+   "name": "huile d'olive",
+   "aisle": "Divers"
+  },
+  {
+   "id": 9,
+   "name": "lait de coco",
+   "aisle": "Divers"
+  },
+  {
+   "id": 10,
+   "name": "tomates pelées",
+   "aisle": "Divers"
+  },
+  {
+   "id": 11,
+   "name": "bouillon de légumes",
+   "aisle": "Divers"
+  },
+  {
+   "id": 12,
+   "name": "curry",
+   "aisle": "Divers"
+  },
+  {
+   "id": 13,
+   "name": "cumin",
+   "aisle": "Divers"
+  },
+  {
+   "id": 14,
+   "name": "paprika",
+   "aisle": "Divers"
+  },
+  {
+   "id": 15,
+   "name": "lentilles vertes",
+   "aisle": "Divers"
+  },
+  {
+   "id": 16,
+   "name": "boulgour",
+   "aisle": "Divers"
+  },
+  {
+   "id": 17,
+   "name": "pâte brisée",
+   "aisle": "Divers"
+  },
+  {
+   "id": 18,
+   "name": "plaques à lasagnes",
+   "aisle": "Divers"
+  },
+  {
+   "id": 19,
+   "name": "oeufs",
+   "aisle": "Frais"
+  },
+  {
+   "id": 20,
+   "name": "crème fraîche",
+   "aisle": "Frais"
+  },
+  {
+   "id": 21,
+   "name": "fromage râpé",
+   "aisle": "Frais"
+  },
+  {
+   "id": 22,
+   "name": "feta",
+   "aisle": "Frais"
+  },
+  {
+   "id": 23,
+   "name": "mozzarella",
+   "aisle": "Frais"
+  },
+  {
+   "id": 24,
+   "name": "yaourt nature",
+   "aisle": "Frais"
+  },
+  {
+   "id": 25,
+   "name": "tofu",
+   "aisle": "Frais"
+  },
+  {
+   "id": 26,
+   "name": "pain de campagne",
+   "aisle": "Frais"
+  },
+  {
+   "id": 27,
+   "name": "tortillas",
+   "aisle": "Frais"
+  },
+  {
+   "id": 28,
+   "name": "pain de mie",
+   "aisle": "Frais"
+  },
+  {
+   "id": 29,
+   "name": "gnocchis",
+   "aisle": "Frais"
+  },
+  {
+   "id": 30,
+   "name": "beurre",
+   "aisle": "Frais"
+  },
+  {
+   "id": 31,
+   "name": "oignon",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 32,
+   "name": "ail",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 33,
+   "name": "carotte",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 34,
+   "name": "courgette",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 35,
+   "name": "aubergine",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 36,
+   "name": "poivron",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 37,
+   "name": "tomate",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 38,
+   "name": "pomme de terre",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 39,
+   "name": "patate douce",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 40,
+   "name": "courge butternut",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 41,
+   "name": "épinards",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 42,
+   "name": "salade verte",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 43,
+   "name": "concombre",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 44,
+   "name": "champignons",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 45,
+   "name": "brocoli",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 46,
+   "name": "citron",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 47,
+   "name": "persil",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 48,
+   "name": "avocat",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 49,
+   "name": "poireau",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 50,
+   "name": "menthe",
+   "aisle": "Fruits et Légumes"
+  },
+  {
+   "id": 51,
+   "name": "sauce soja",
+   "aisle": "Asiatique"
+  },
+  {
+   "id": 52,
+   "name": "nouilles de riz",
+   "aisle": "Asiatique"
+  },
+  {
+   "id": 53,
+   "name": "gingembre",
+   "aisle": "Asiatique"
+  },
+  {
+   "id": 54,
+   "name": "graines de sésame",
+   "aisle": "Asiatique"
+  },
+  {
+   "id": 55,
+   "name": "petits pois",
+   "aisle": "Picard"
+  },
+  {
+   "id": 56,
+   "name": "épinards surgelés",
+   "aisle": "Picard"
+  }
+ ],
+ "categories": [
+  "Légumes",
+  "Légumineuses",
+  "Oeufs",
+  "Pain",
+  "Pâtes",
+  "Riz",
+  "Salade",
+  "Tubercules"
+ ]
+}

@@ -1,0 +1,23 @@
+# Godot 4+ import cache and editor-generated files
+.godot/
+# Exported builds
+export.cfg
+# export_presets.cfg est volontairement VERSIONNÉ : il ne contient aucun identifiant de
+# signature (le keystore de debug vient des réglages de l'éditeur) et c'est une
+# configuration de projet, pas un artefact local.
+
+# Sorties d'export (dont build/release/, les livrables signés). Seul build/.gdignore est
+# versionné : build/ est DANS le projet, et sans lui Godot importe les images de l'export web
+# (index.png, icônes) puis les embarque dans l'export suivant — APK et exe compris.
+build/*
+!build/.gdignore
+*.import
+
+# Identifiants Supabase (URL projet + clé anon) — jamais versionnés
+supabase_config.json
+
+# Binaires iOS de l'addon godot-sqlite : 240 Mo pour une plateforme reportée à plus
+# tard (cf. plan, annexe 3 : « iOS en second temps »). Ils restent sur le disque, git
+# les ignore. Le jour où iOS est visé, récupérer l'addon complet depuis
+# https://github.com/2shady4u/godot-sqlite/releases (release v4.4, cf. README).
+addons/godot-sqlite/bin/*ios*
