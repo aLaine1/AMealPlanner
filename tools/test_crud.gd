@@ -71,6 +71,22 @@ func _initialize() -> void:
 	check.call("update recette (nom, ingrédients remplacés)",
 		upd != null and not upd.nobox and upd.ingredients.size() == 1 and upd.ingredients[0].nom == "tomate")
 
+	# L'éditeur ne saisit pas le rayon : ses ingrédients arrivent avec celui par défaut du
+	# modèle. Enregistrer la recette ne doit pas pour autant déplacer un ingrédient existant.
+	db.insert_ingredient("ZZZ Rayonné", "Frais")
+	var ing3 := Ingredient.new()
+	ing3.nom = "zzz rayonné"
+	ing3.quantite = 1
+	upd.ingredients = [ing3] as Array[Ingredient]
+	db.update_recipe(upd)
+	var kept := ""
+	for i in db.fetch_all_ingredients():
+		if i.nom == "ZZZ Rayonné":
+			kept = i.aisle
+	check.call("éditer une recette garde le rayon de ses ingrédients (%s)" % kept, kept == "Frais")
+	upd = db.fetch_recipe_by_name("Recette Test Modifiée")
+	db.delete_ingredient_by_name("ZZZ Rayonné")
+
 	db.delete_recipe(new_id)
 	var rec_after := db.fetch_all_recipes().size()
 	check.call("soft-delete recette", rec_after == rec_before)

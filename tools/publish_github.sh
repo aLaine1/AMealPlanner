@@ -123,6 +123,6 @@ else
             "$OUT/AMealPlanner-$VERSION-windows.zip" "$OUT/AMealPlanner-$VERSION-web.zip")
     for a in "${ASSETS[@]}"; do [ -f "$a" ] || { echo "✗ Fichier manquant : $a" >&2; exit 1; }; done
     "$GH" release create "v$VERSION" "${ASSETS[@]}" -R "$REPO_SLUG" --target main --latest \
-        --title "AMeal Planner $VERSION" --notes "$NOTES" >/dev/null
+        --title "AMeal Planner $VERSION" --notes "$(tail -n +3 <<<"$NOTES")" >/dev/null
     echo "✓ https://github.com/$REPO_SLUG/releases/tag/v$VERSION"
 fi

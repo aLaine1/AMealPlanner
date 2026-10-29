@@ -34,7 +34,7 @@ Sur Android, Windows et dans le navigateur, synchronisé entre les appareils de 
 | **Android** | `AMealPlanner-<version>.apk` | Autoriser l'installation d'applications de source inconnue. Les mises à jour s'installent par-dessus, données conservées. |
 | **Windows** | `AMealPlanner-<version>-setup.exe` | Installe sans droits administrateur et se met à jour par-dessus. Non signé : SmartScreen avertit au premier lancement (« Informations complémentaires » → « Exécuter quand même »). |
 | **Windows (portable)** | `AMealPlanner-<version>-windows.zip` | À décompresser ; garder la DLL à côté de l'exécutable. |
-| **Web** | [alaine1.github.io/AMealPlanner](https://alaine1.github.io/AMealPlanner/) | Pour une utilisation nomade : rien n'est conservé sur le poste. |
+| **Web** | [alaine1.github.io/AMealPlanner](https://alaine1.github.io/AMealPlanner/) | Pour un ordinateur d'emprunt : rien n'est conservé sur le poste. |
 
 Les fichiers sont joints à chaque [version publiée](https://github.com/aLaine1/AMealPlanner/releases).
 

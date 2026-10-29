@@ -1680,7 +1680,20 @@ func _soft_delete(table: String, key_column: String, key_value) -> void:
 		"UPDATE %s SET deleted_at=?, updated_at=?, dirty=1 WHERE %s=?;" % [table, key_column],
 		[now, now, key_value])
 
+## Identifiant d'un ingrédient lié à une recette ou un petit déjeuner, créé s'il n'existe pas.
+##
+## Un ingrédient VIVANT garde son rayon : `aisle` ne sert qu'à la création (ou à la
+## réactivation d'un tombstone). Les éditeurs ne saisissent que nom, quantité et unité, et
+## laissent donc le rayon par défaut du modèle ; passer par `insert_ingredient`, qui écrase
+## le rayon, renvoyait tous les ingrédients d'une recette dans « Divers » à chaque
+## enregistrement.
 func _ingredient_id(name: String, aisle: String) -> String:
+	_db.query_with_bindings("""
+		SELECT id FROM ingredients
+		WHERE LOWER(TRIM(name)) = LOWER(TRIM(?)) AND deleted_at IS NULL
+		ORDER BY id LIMIT 1;""", [name])
+	if not _db.query_result.is_empty():
+		return str(_db.query_result[0]["id"])
 	return insert_ingredient(name, aisle)
 
 ## Identifiant d'une catégorie, créée si elle n'existe pas.
